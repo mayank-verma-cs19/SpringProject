@@ -35,4 +35,6 @@ public class StudentRestController {
         StudentDto studentDto = studentService.getStudentById(id);
         return new ResponseEntity<>(studentDto, HttpStatus.OK);
     }
+
+
 }
